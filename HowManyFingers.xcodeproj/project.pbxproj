@@ -12,6 +12,12 @@
 		2ACC2C781C60671D00CD87A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C761C60671D00CD87A8 /* Main.storyboard */; };
 		2ACC2C7A1C60671D00CD87A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C791C60671D00CD87A8 /* Assets.xcassets */; };
 		2ACC2C7D1C60671D00CD87A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C7B1C60671D00CD87A8 /* LaunchScreen.storyboard */; };
+		2ACC2C851C609E1400CD87A8 /* FiveFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C841C609E1400CD87A8 /* FiveFinger.jpg */; };
+		2ACC2C871C609E2200CD87A8 /* FourFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C861C609E2200CD87A8 /* FourFinger.jpg */; };
+		2ACC2C891C609E2800CD87A8 /* ThreeFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C881C609E2800CD87A8 /* ThreeFinger.jpg */; };
+		2ACC2C8B1C609E3000CD87A8 /* TwoFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C8A1C609E3000CD87A8 /* TwoFinger.jpg */; };
+		2ACC2C8D1C609E3900CD87A8 /* OneFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C8C1C609E3900CD87A8 /* OneFinger.jpg */; };
+		2ACC2C8F1C609E5C00CD87A8 /* NoFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC2C8E1C609E5C00CD87A8 /* NoFinger.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		2ACC2C791C60671D00CD87A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ACC2C7C1C60671D00CD87A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ACC2C7E1C60671D00CD87A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ACC2C841C609E1400CD87A8 /* FiveFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FiveFinger.jpg; sourceTree = "<group>"; };
+		2ACC2C861C609E2200CD87A8 /* FourFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FourFinger.jpg; sourceTree = "<group>"; };
+		2ACC2C881C609E2800CD87A8 /* ThreeFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThreeFinger.jpg; sourceTree = "<group>"; };
+		2ACC2C8A1C609E3000CD87A8 /* TwoFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TwoFinger.jpg; sourceTree = "<group>"; };
+		2ACC2C8C1C609E3900CD87A8 /* OneFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OneFinger.jpg; sourceTree = "<group>"; };
+		2ACC2C8E1C609E5C00CD87A8 /* NoFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NoFinger.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		2ACC2C711C60671D00CD87A8 /* HowManyFingers */ = {
 			isa = PBXGroup;
 			children = (
+				2ACC2C901C609E6500CD87A8 /* images */,
 				2ACC2C721C60671D00CD87A8 /* AppDelegate.swift */,
 				2ACC2C741C60671D00CD87A8 /* ViewController.swift */,
 				2ACC2C761C60671D00CD87A8 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				2ACC2C7E1C60671D00CD87A8 /* Info.plist */,
 			);
 			path = HowManyFingers;
+			sourceTree = "<group>";
+		};
+		2ACC2C901C609E6500CD87A8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC2C8E1C609E5C00CD87A8 /* NoFinger.jpg */,
+				2ACC2C8C1C609E3900CD87A8 /* OneFinger.jpg */,
+				2ACC2C8A1C609E3000CD87A8 /* TwoFinger.jpg */,
+				2ACC2C881C609E2800CD87A8 /* ThreeFinger.jpg */,
+				2ACC2C861C609E2200CD87A8 /* FourFinger.jpg */,
+				2ACC2C841C609E1400CD87A8 /* FiveFinger.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACC2C8B1C609E3000CD87A8 /* TwoFinger.jpg in Resources */,
+				2ACC2C8D1C609E3900CD87A8 /* OneFinger.jpg in Resources */,
 				2ACC2C7D1C60671D00CD87A8 /* LaunchScreen.storyboard in Resources */,
+				2ACC2C8F1C609E5C00CD87A8 /* NoFinger.jpg in Resources */,
 				2ACC2C7A1C60671D00CD87A8 /* Assets.xcassets in Resources */,
+				2ACC2C851C609E1400CD87A8 /* FiveFinger.jpg in Resources */,
+				2ACC2C891C609E2800CD87A8 /* ThreeFinger.jpg in Resources */,
 				2ACC2C781C60671D00CD87A8 /* Main.storyboard in Resources */,
+				2ACC2C871C609E2200CD87A8 /* FourFinger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
